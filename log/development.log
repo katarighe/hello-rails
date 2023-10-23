@@ -18,3 +18,6 @@ Processing by PagesController#hello as HTML
   Rendering pages/hello.html.erb within layouts/application
   Rendered pages/hello.html.erb within layouts/application (Duration: 19.0ms | Allocations: 129)
   Rendered layout layouts/application.html.erb (Duration: 3627.2ms | Allocations: 107431)
+Completed 200 OK in 3739ms (Views: 3664.0ms | ActiveRecord: 0.0ms | Allocations: 108744)
+
+
