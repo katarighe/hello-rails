@@ -8,3 +8,13 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 1269ms (Views: 205.0ms | ActiveRecord: 0.0ms | Allocations: 10094)
 
 
+Started GET "/hello" for 127.0.0.1 at 2023-10-23 16:14:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/pages/hello" for 127.0.0.1 at 2023-10-23 16:14:33 +0300
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 19.0ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 3627.2ms | Allocations: 107431)
